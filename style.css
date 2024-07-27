@@ -1,0 +1,12 @@
+h2 {
+  width: 50%;
+  margin: auto;
+}
+
+span {
+  transition: 300ms;
+}
+
+span.active {
+  color: orange;
+}
