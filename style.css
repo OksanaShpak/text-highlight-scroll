@@ -5,8 +5,13 @@ h2 {
 
 span {
   transition: 300ms;
+  font-size: 3.5vw;
 }
 
 span.active {
   color: orange;
+}
+
+span:not(.active) {
+  filter:blur(1px);
 }

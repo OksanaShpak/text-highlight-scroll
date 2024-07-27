@@ -3,7 +3,6 @@ const count = h2.children.length - 1;
 
 onscroll = () => {
   const i = (document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * count | 0;
-  console.log(i);
   const active = h2.querySelector('.active');
   const next = h2.children[i];
 
